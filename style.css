@@ -1,0 +1,64 @@
+body{
+	background-color: white;
+}
+
+h1 {
+	color: red;
+
+	
+}
+
+table, th, td {
+    border: 2px solid black;
+	background-color: white;
+	color: black;
+
+	
+}
+
+ 
+}
+
+
+
+ 
+div.students {
+	color:red;
+	}
+	
+
+
+div.addresses {
+
+    width: 1300px;
+    border: 1px solid;
+    padding: 15px;
+	color:black;
+	
+   }
+
+                   }
+
+div.correspondence_address {
+     text-align: left;
+	 text-align:justify;
+	 line-height:1.7;
+	 column-count:2;
+	 letter-spacing: 0.5px;
+   }
+div.home_address{
+     text-align: left;
+	 text-align:justify;
+	 line-height:1.7;
+	 column-count:2;
+	 letter-spacing: 0.5px;
+   }
+   h2 {
+	color: red;
+	}
+ h3 {
+	color: red;
+	}
+ h4 {
+	color: red;
+	}

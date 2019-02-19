@@ -1,0 +1,37 @@
+<!ELEMENT results (personal_details)>
+<!ELEMENT personal_details (student_details*)>
+<!ELEMENT student_details (students)>
+<!ELEMENT students (student_id,title,surname,preferred_name,given_name,gender,date-of-birth,email,student_image,notes_details,addresses,course_attempts)>
+<!ELEMENT student_id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT preferred_name (#PCDATA)>
+<!ELEMENT given_name (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT date-of-birth (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT student_image (#PCDATA)>
+<!ELEMENT notes_details (notes*)>
+<!ELEMENT notes (note)>
+<!ELEMENT note (#PCDATA)>
+<!ELEMENT addresses (address_details)>
+<!ELEMENT address_details (correspondence_address,home_address)>
+<!ELEMENT correspondence_address (start_date,address_line_1,address_line_2,address_line_3,suburb,post_code,home_ph,work_ph,mobile_no,fax_no)>
+<!ELEMENT start_date (#PCDATA)>
+<!ELEMENT address_line_1 (#PCDATA)>
+<!ELEMENT address_line_2 (#PCDATA)>
+<!ELEMENT address_line_3 (#PCDATA)>
+<!ELEMENT suburb (#PCDATA)>
+<!ELEMENT post_code (#PCDATA)>
+<!ELEMENT home_ph (#PCDATA)>
+<!ELEMENT work_ph (#PCDATA)>
+<!ELEMENT mobile_no (#PCDATA)>
+<!ELEMENT fax_no (#PCDATA)>
+<!ELEMENT  home_address (start_date,address_line_1,address_line_2,address_line_3,suburb,post_code,home_ph,work_ph,mobile_no,fax_no)>
+<!ELEMENT course_attempts (course_details*)>
+<!ELEMENT course_details (course,link)>
+<!ELEMENT course (#PCDATA)>
+<!ATTLIST course code CDATA #REQUIRED >
+<!ATTLIST course title CDATA #REQUIRED >
+<!ELEMENT link (#PCDATA)>
+
